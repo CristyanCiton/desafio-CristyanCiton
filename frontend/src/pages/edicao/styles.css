@@ -1,0 +1,66 @@
+.tela-cadastro {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    border: 0 auto;
+    padding: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-cadastro h1 {
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tela-cadastro form {
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.tela-cadastro form input {
+    height: 37px;
+    padding-left: 10px;
+    font-size: 16px;
+    width: 95%;
+    border-color: #000000;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+
+.tela-cadastro form button {
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+    border-color: #000000;
+    color: white;
+    border-radius: 3px;
+    transition: opacity 0.2s;
+}
+
+.tela-cadastro form button:hover {
+    opacity: 0.8;
+}
+
+.acesso-listagem {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.acesso-listagem a {
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.acesso-listagem svg {
+    margin-left: 8px;
+}

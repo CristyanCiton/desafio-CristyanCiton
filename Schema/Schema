@@ -1,0 +1,6 @@
+create table Usuario (
+idusuario serial,
+Nome varchar(255) not null,
+Idade integer not null,
+primary key (idusuario)
+);
